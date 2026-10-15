@@ -218,3 +218,12 @@ classification limited by role); insights dashboard; user administration; audit 
 header on state-changing requests, login rate limiting (5 failures / 5 min), strict Content-Security-Policy, all
 JavaScript served locally (Three.js vendored, no CDNs). `scripts/test_portal_security.py` runs 25 end-to-end checks
 (all pass), including access control for dashboards, charts and reports. This is a demo: before real use, replace the demo accounts, disable demo mode and put it behind HTTPS.
+
+---
+
+## Copyright
+
+© 2026 Kiruthikkumaar Radhakrishnan. All rights reserved.
+
+This repository is shared publicly for viewing as part of my portfolio. No licence is granted: you may not copy,
+modify, distribute or use this code without my written permission. Contact: kiruthikkumaar2003@gmail.com

@@ -1,0 +1,12 @@
+{
+  "raw": {
+    "faithfulness": 0.9655172413793104,
+    "below_1": 4,
+    "n": 58
+  },
+  "generator": {
+    "faithfulness": 1.0,
+    "below_1": 0,
+    "n": 58
+  }
+}

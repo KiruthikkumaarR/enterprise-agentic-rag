@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.DS_Store
+models/
+bin/
+qdrant_storage/
+third_party/
+data/processed/
+data/portal/
+artifacts/*.log
+artifacts/audit_logs/
+*.gguf
+*.safetensors

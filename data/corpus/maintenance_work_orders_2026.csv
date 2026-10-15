@@ -1,0 +1,61 @@
+work_order_id,asset_id,completed_date,work_type,technician,labour_hours
+WO-26108,AST-2055,2026-04-12,preventive service,Matteo Wisniewski,6.0
+WO-26117,AST-2251,2026-05-23,lubrication,Marta Gruber,2.7
+WO-26121,AST-2746,2026-01-20,calibration,Anna Virtanen,1.6
+WO-26131,AST-2674,2026-05-09,sensor replacement,Freja Virtanen,2.8
+WO-26138,AST-2665,2026-04-29,lubrication,Clara Salo,3.7
+WO-26148,AST-2132,2026-07-19,sensor replacement,Mikael Etxeberria,11.0
+WO-26151,AST-2315,2026-03-14,lubrication,Kasper Huber,5.5
+WO-26157,AST-2993,2026-04-24,preventive service,Ines Wisniewski,3.8
+WO-26165,AST-2442,2026-08-16,lubrication,Matteo Wisniewski,4.9
+WO-26172,AST-2903,2026-03-05,lubrication,Claire Kowalski,3.6
+WO-26182,AST-2674,2026-04-30,corrective repair,Mikael Etxeberria,0.6
+WO-26190,AST-2910,2026-04-26,calibration,Tomasz Laine,12.3
+WO-26191,AST-2910,2026-01-14,preventive service,Anna Virtanen,13.6
+WO-26199,AST-2640,2026-08-28,corrective repair,Marta Gruber,7.4
+WO-26208,AST-2506,2026-06-05,calibration,Clara Salo,13.3
+WO-26217,AST-2674,2026-06-03,sensor replacement,Anna Virtanen,5.2
+WO-26221,AST-2251,2026-03-30,preventive service,Tomasz Laine,3.3
+WO-26226,AST-2993,2026-06-04,sensor replacement,Clara Salo,12.8
+WO-26239,AST-2526,2026-03-26,safety inspection,Clara Salo,5.5
+WO-26242,AST-2900,2026-01-21,preventive service,Tomasz Laine,11.2
+WO-26250,AST-2014,2026-01-18,safety inspection,Mikael Etxeberria,11.2
+WO-26255,AST-2014,2026-06-14,lubrication,Mikael Etxeberria,9.3
+WO-26266,AST-2903,2026-03-12,safety inspection,Kasper Huber,9.5
+WO-26268,AST-2723,2026-03-22,sensor replacement,Anna Virtanen,12.4
+WO-26278,AST-2723,2026-01-06,calibration,Clara Salo,3.2
+WO-26283,AST-2903,2026-08-31,corrective repair,Kasper Larsen,12.7
+WO-26289,AST-2746,2026-07-31,corrective repair,Kasper Larsen,8.3
+WO-26299,AST-2203,2026-07-18,preventive service,Ines Wisniewski,0.7
+WO-26304,AST-2014,2026-06-15,safety inspection,Mikael Etxeberria,8.2
+WO-26315,AST-2203,2026-05-11,preventive service,Ines Wisniewski,5.2
+WO-26321,AST-2672,2026-02-14,corrective repair,Mikael Etxeberria,5.7
+WO-26326,AST-2559,2026-02-03,corrective repair,Freja Virtanen,4.7
+WO-26336,AST-2758,2026-04-11,corrective repair,Lea Huber,8.9
+WO-26343,AST-2672,2026-07-22,preventive service,Anna Virtanen,6.0
+WO-26351,AST-2559,2026-05-03,preventive service,Anna Virtanen,3.4
+WO-26356,AST-2903,2026-02-11,safety inspection,Marta Gruber,2.2
+WO-26364,AST-2402,2026-07-29,preventive service,Tomasz Laine,12.4
+WO-26371,AST-2251,2026-08-04,calibration,Mikael Etxeberria,5.8
+WO-26377,AST-2143,2026-08-07,sensor replacement,Kasper Huber,9.3
+WO-26384,AST-2704,2026-03-06,safety inspection,Kasper Larsen,9.4
+WO-26391,AST-2651,2026-04-24,preventive service,Tomasz Laine,0.5
+WO-26397,AST-2355,2026-03-03,safety inspection,Anna Virtanen,11.0
+WO-26407,AST-2143,2026-02-16,safety inspection,Kasper Larsen,1.9
+WO-26410,AST-2665,2026-04-22,calibration,Mikael Etxeberria,11.3
+WO-26419,AST-2055,2026-06-19,corrective repair,Tomasz Laine,9.1
+WO-26427,AST-2108,2026-03-23,sensor replacement,Claire Kowalski,1.6
+WO-26432,AST-2055,2026-06-18,preventive service,Tomasz Laine,12.1
+WO-26441,AST-2900,2026-06-28,corrective repair,Matteo Wisniewski,2.3
+WO-26445,AST-2355,2026-09-03,preventive service,Clara Salo,11.1
+WO-26450,AST-2910,2026-08-03,calibration,Anna Virtanen,10.7
+WO-26459,AST-2672,2026-08-19,lubrication,Kasper Huber,12.7
+WO-26465,AST-2143,2026-03-08,lubrication,Freja Virtanen,3.3
+WO-26475,AST-2993,2026-05-11,preventive service,Marta Gruber,5.5
+WO-26479,AST-2559,2026-04-15,preventive service,Clara Salo,13.1
+WO-26488,AST-2220,2026-02-14,calibration,Mikael Etxeberria,10.9
+WO-26497,AST-2957,2026-08-09,calibration,Freja Virtanen,8.0
+WO-26504,AST-2640,2026-08-15,corrective repair,Kasper Huber,13.9
+WO-26511,AST-2903,2026-07-25,calibration,Kasper Huber,5.6
+WO-26517,AST-2203,2026-02-08,calibration,Marta Gruber,10.8
+WO-26521,AST-2651,2026-02-16,lubrication,Lea Huber,13.4

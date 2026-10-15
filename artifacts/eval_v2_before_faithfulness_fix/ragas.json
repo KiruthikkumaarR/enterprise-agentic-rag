@@ -1,0 +1,1959 @@
+{
+  "full": {
+    "faithfulness": 0.9010152284263959,
+    "answer_relevancy": 0.7858955106509407,
+    "nan_rate": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0
+    },
+    "n_scored": 197
+  },
+  "naive": {
+    "faithfulness": 0.8859649122807018,
+    "answer_relevancy": 0.6703930587402519,
+    "nan_rate": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0
+    },
+    "n_scored": 190
+  },
+  "full_rows": [
+    {
+      "qid": "F0001-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999998
+    },
+    {
+      "qid": "F0002-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5948624972824351
+    },
+    {
+      "qid": "F0003-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8540582799490944
+    },
+    {
+      "qid": "F0005-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7037229525508153
+    },
+    {
+      "qid": "F0008-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9202760382365592
+    },
+    {
+      "qid": "F0010-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6930528032214586
+    },
+    {
+      "qid": "F0012-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8617269077942503
+    },
+    {
+      "qid": "F0014-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8628906448895907
+    },
+    {
+      "qid": "F0017-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.71067657574345
+    },
+    {
+      "qid": "F0019-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8942122713859089
+    },
+    {
+      "qid": "F0020-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5873883956286297
+    },
+    {
+      "qid": "F0021-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9253482611164441
+    },
+    {
+      "qid": "F0026-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9027588629570811
+    },
+    {
+      "qid": "F0030-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9698926534457044
+    },
+    {
+      "qid": "F0034-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6337598818915741
+    },
+    {
+      "qid": "F0035-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7456619158830231
+    },
+    {
+      "qid": "F0036-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8860957947350097
+    },
+    {
+      "qid": "F0037-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9933641419013126
+    },
+    {
+      "qid": "F0039-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9711724836464302
+    },
+    {
+      "qid": "F0040-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.975058099623014
+    },
+    {
+      "qid": "F0041-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8402118660614541
+    },
+    {
+      "qid": "F0042-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.829179755383739
+    },
+    {
+      "qid": "F0043-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.4679310116346567
+    },
+    {
+      "qid": "F0045-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9236706675094041
+    },
+    {
+      "qid": "F0048-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0052-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0053-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0057-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0058-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0061-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3044014814909876
+    },
+    {
+      "qid": "F0068-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0070-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.38330619670925165
+    },
+    {
+      "qid": "F0072-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9903552208141161
+    },
+    {
+      "qid": "F0074-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5977438567633699
+    },
+    {
+      "qid": "F0075-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9761848791191552
+    },
+    {
+      "qid": "F0078-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9460069738085335
+    },
+    {
+      "qid": "F0080-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999998
+    },
+    {
+      "qid": "F0082-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9915221028556749
+    },
+    {
+      "qid": "F0084-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9941620413334827
+    },
+    {
+      "qid": "F0087-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000002
+    },
+    {
+      "qid": "F0088-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9633731239021213
+    },
+    {
+      "qid": "F0089-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0091-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5351678595053411
+    },
+    {
+      "qid": "F0094-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8767494126173576
+    },
+    {
+      "qid": "F0098-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999998
+    },
+    {
+      "qid": "F0099-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6685528115190368
+    },
+    {
+      "qid": "F0103-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.43979953507692016
+    },
+    {
+      "qid": "F0104-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8940684141836437
+    },
+    {
+      "qid": "F0109-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9934783452403395
+    },
+    {
+      "qid": "F0110-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0112-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999999
+    },
+    {
+      "qid": "F0114-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9874516775381603
+    },
+    {
+      "qid": "F0116-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5255043456668631
+    },
+    {
+      "qid": "F0127-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9935046468121491
+    },
+    {
+      "qid": "F0130-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.41078490899942766
+    },
+    {
+      "qid": "F0132-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9866720812147143
+    },
+    {
+      "qid": "F0139-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999998
+    },
+    {
+      "qid": "F0140-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9802893290764699
+    },
+    {
+      "qid": "F0142-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9824592970056525
+    },
+    {
+      "qid": "F0143-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5800453565881971
+    },
+    {
+      "qid": "F0153-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6362994722631116
+    },
+    {
+      "qid": "F0160-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9833365023061323
+    },
+    {
+      "qid": "F0165-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5225006430701175
+    },
+    {
+      "qid": "F0172-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9252930717713255
+    },
+    {
+      "qid": "F0175-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999999
+    },
+    {
+      "qid": "F0177-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.27127556527034735
+    },
+    {
+      "qid": "F0180-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6396229660513043
+    },
+    {
+      "qid": "F0183-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9775829617557182
+    },
+    {
+      "qid": "F0185-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999998
+    },
+    {
+      "qid": "F0186-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.31677875228222724
+    },
+    {
+      "qid": "F0191-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9128419002685884
+    },
+    {
+      "qid": "F0194-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9737780623787183
+    },
+    {
+      "qid": "F0208-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.891206425920997
+    },
+    {
+      "qid": "F0209-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.935781799521101
+    },
+    {
+      "qid": "F0212-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000002
+    },
+    {
+      "qid": "F0214-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9941850834645125
+    },
+    {
+      "qid": "F0217-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.3299984863109406
+    },
+    {
+      "qid": "F0220-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.949012842633525
+    },
+    {
+      "qid": "F0223-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9866232969748497
+    },
+    {
+      "qid": "F0226-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 1.0000000000000002
+    },
+    {
+      "qid": "F0227-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3829172142178855
+    },
+    {
+      "qid": "F0228-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.960928445659889
+    },
+    {
+      "qid": "F0229-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8779166743864306
+    },
+    {
+      "qid": "F0243-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9606766325066021
+    },
+    {
+      "qid": "F0249-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.990658825980138
+    },
+    {
+      "qid": "F0250-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000002
+    },
+    {
+      "qid": "F0252-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0254-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9906287416043087
+    },
+    {
+      "qid": "F0256-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9780231333572718
+    },
+    {
+      "qid": "F0257-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.39635535133045313
+    },
+    {
+      "qid": "F0259-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8479669516373758
+    },
+    {
+      "qid": "F0260-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9449196851433652
+    },
+    {
+      "qid": "F0268-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8471863740588754
+    },
+    {
+      "qid": "F0276-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9233104232850827
+    },
+    {
+      "qid": "F0279-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9856521309809353
+    },
+    {
+      "qid": "F0280-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9230725621239199
+    },
+    {
+      "qid": "F0283-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4434439893231694
+    },
+    {
+      "qid": "F0287-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.34978585162117737
+    },
+    {
+      "qid": "F0293-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.41773443412211103
+    },
+    {
+      "qid": "F0298-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9361184660437707
+    },
+    {
+      "qid": "F0311-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9833166004590809
+    },
+    {
+      "qid": "F0324-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8030362968096526
+    },
+    {
+      "qid": "F0326-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9407919260328245
+    },
+    {
+      "qid": "F0333-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9573655896705752
+    },
+    {
+      "qid": "F0334-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9509914726084177
+    },
+    {
+      "qid": "F0343-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3880395968441072
+    },
+    {
+      "qid": "F0346-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9163552230827273
+    },
+    {
+      "qid": "F0352-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9145180649976844
+    },
+    {
+      "qid": "F0363-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3400404056552269
+    },
+    {
+      "qid": "F0378-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9084977002792342
+    },
+    {
+      "qid": "F0382-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0386-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9510401387739018
+    },
+    {
+      "qid": "F0389-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000002
+    },
+    {
+      "qid": "F0404-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9098088246570513
+    },
+    {
+      "qid": "F0437-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.974774648677427
+    },
+    {
+      "qid": "F0454-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0460-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5521586568838522
+    },
+    {
+      "qid": "F0461-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.977294007098639
+    },
+    {
+      "qid": "F0464-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.37794507223353313
+    },
+    {
+      "qid": "F0482-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9946680474451205
+    },
+    {
+      "qid": "F0491-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9783274599055094
+    },
+    {
+      "qid": "F0493-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0497-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9949515357454554
+    },
+    {
+      "qid": "F0508-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999998
+    },
+    {
+      "qid": "F0509-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9772831061539848
+    },
+    {
+      "qid": "F0513-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.2251585872902844
+    },
+    {
+      "qid": "F0514-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4370317191030659
+    },
+    {
+      "qid": "F0527-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9951648599602977
+    },
+    {
+      "qid": "F0539-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9947593104367
+    },
+    {
+      "qid": "F0541-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999999
+    },
+    {
+      "qid": "F0544-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0545-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9756146919050712
+    },
+    {
+      "qid": "F0547-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9967141327993887
+    },
+    {
+      "qid": "F0557-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9848360739960101
+    },
+    {
+      "qid": "F0559-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9963385247369368
+    },
+    {
+      "qid": "F0562-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8978602560513863
+    },
+    {
+      "qid": "F0563-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9254082353543116
+    },
+    {
+      "qid": "F0567-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.997609890991056
+    },
+    {
+      "qid": "F0568-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9560740065444371
+    },
+    {
+      "qid": "F0571-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0585-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0592-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9812477620819096
+    },
+    {
+      "qid": "F0593-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9457891907707635
+    },
+    {
+      "qid": "F0595-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000002
+    },
+    {
+      "qid": "F0597-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9406736566585255
+    },
+    {
+      "qid": "F0603-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9974554204098508
+    },
+    {
+      "qid": "F0609-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5807079197511105
+    },
+    {
+      "qid": "F0612-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8839974961688578
+    },
+    {
+      "qid": "F0613-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0614-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999999
+    },
+    {
+      "qid": "F0616-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0617-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5887754958472762
+    },
+    {
+      "qid": "F0618-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8838628804683427
+    },
+    {
+      "qid": "F0619-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0621-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9684623760682978
+    },
+    {
+      "qid": "F0623-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9001587915890626
+    },
+    {
+      "qid": "F0625-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000002
+    },
+    {
+      "qid": "F0630-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000004
+    },
+    {
+      "qid": "F0631-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9531896260364883
+    },
+    {
+      "qid": "F0634-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0635-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9898570271861057
+    },
+    {
+      "qid": "F0640-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000004
+    },
+    {
+      "qid": "F0646-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9522279619567435
+    },
+    {
+      "qid": "F0657-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9644548117344303
+    },
+    {
+      "qid": "F0668-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0671-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3626732055893809
+    },
+    {
+      "qid": "F0672-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0678-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9486091034827121
+    },
+    {
+      "qid": "F0688-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0689-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.380615312243058
+    },
+    {
+      "qid": "F0696-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0697-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4225282765725268
+    },
+    {
+      "qid": "F0702-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0749-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.42173873028480396
+    },
+    {
+      "qid": "F0820-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0825-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9645996904665479
+    },
+    {
+      "qid": "F0827-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9912516026011324
+    },
+    {
+      "qid": "F0833-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.900727446288164
+    },
+    {
+      "qid": "F0834-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.977438724631434
+    },
+    {
+      "qid": "F0836-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9412961434482906
+    },
+    {
+      "qid": "F0844-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9361291816215518
+    },
+    {
+      "qid": "F0845-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9407070133029073
+    },
+    {
+      "qid": "F0855-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9906457935057676
+    },
+    {
+      "qid": "F0858-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9518181869640244
+    },
+    {
+      "qid": "F0863-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9910612494030123
+    },
+    {
+      "qid": "F0877-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0891-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999998
+    },
+    {
+      "qid": "F0897-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.949266292543733
+    },
+    {
+      "qid": "F0921-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9694799089311817
+    },
+    {
+      "qid": "F0942-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.967208619329878
+    },
+    {
+      "qid": "F0991-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F1030-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8665691709236923
+    },
+    {
+      "qid": "F1031-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5617517293963653
+    },
+    {
+      "qid": "F1050-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7806497395917398
+    },
+    {
+      "qid": "F1051-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9967021530782553
+    },
+    {
+      "qid": "F1052-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7544802547618711
+    },
+    {
+      "qid": "F1061-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.9968626094242913
+    }
+  ],
+  "naive_rows": [
+    {
+      "qid": "F0001-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999998
+    },
+    {
+      "qid": "F0002-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5948624972824351
+    },
+    {
+      "qid": "F0003-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8540582799490944
+    },
+    {
+      "qid": "F0005-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6529022125015426
+    },
+    {
+      "qid": "F0008-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9202760382365592
+    },
+    {
+      "qid": "F0010-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6930528032214586
+    },
+    {
+      "qid": "F0012-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7304696302373898
+    },
+    {
+      "qid": "F0014-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8628906448895907
+    },
+    {
+      "qid": "F0017-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.71067657574345
+    },
+    {
+      "qid": "F0019-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8942122713859089
+    },
+    {
+      "qid": "F0020-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5873883956286297
+    },
+    {
+      "qid": "F0021-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9415996871834436
+    },
+    {
+      "qid": "F0026-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9027588629570811
+    },
+    {
+      "qid": "F0030-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9698926534457044
+    },
+    {
+      "qid": "F0034-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.971465084743729
+    },
+    {
+      "qid": "F0035-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7456619158830231
+    },
+    {
+      "qid": "F0036-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5668739914889511
+    },
+    {
+      "qid": "F0037-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9933641419013126
+    },
+    {
+      "qid": "F0039-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9711724836464302
+    },
+    {
+      "qid": "F0040-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3793141351954047
+    },
+    {
+      "qid": "F0041-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.8402118660614541
+    },
+    {
+      "qid": "F0042-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.829179755383739
+    },
+    {
+      "qid": "F0043-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4679310116346567
+    },
+    {
+      "qid": "F0045-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9236706675094041
+    },
+    {
+      "qid": "F0048-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0052-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0053-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0057-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0058-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0061-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.37211467722803476
+    },
+    {
+      "qid": "F0068-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0070-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.38330619670925165
+    },
+    {
+      "qid": "F0072-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.975228541724586
+    },
+    {
+      "qid": "F0074-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5977438567633699
+    },
+    {
+      "qid": "F0075-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9761848791191552
+    },
+    {
+      "qid": "F0078-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.2647164744129391
+    },
+    {
+      "qid": "F0080-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999998
+    },
+    {
+      "qid": "F0082-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9920169992688466
+    },
+    {
+      "qid": "F0084-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6515998190623545
+    },
+    {
+      "qid": "F0085-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.3653798298099292
+    },
+    {
+      "qid": "F0087-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.552271237272738
+    },
+    {
+      "qid": "F0088-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9633731239021213
+    },
+    {
+      "qid": "F0089-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0091-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5351678595053411
+    },
+    {
+      "qid": "F0094-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8767494126173576
+    },
+    {
+      "qid": "F0095-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7956540674092055
+    },
+    {
+      "qid": "F0098-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999998
+    },
+    {
+      "qid": "F0099-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6685528115190368
+    },
+    {
+      "qid": "F0103-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8954472136943619
+    },
+    {
+      "qid": "F0104-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8950366346807176
+    },
+    {
+      "qid": "F0109-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6295535336247182
+    },
+    {
+      "qid": "F0110-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.3711226760480582
+    },
+    {
+      "qid": "F0112-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999999
+    },
+    {
+      "qid": "F0114-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.317672613799158
+    },
+    {
+      "qid": "F0116-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.55701021839709
+    },
+    {
+      "qid": "F0127-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9935046468121491
+    },
+    {
+      "qid": "F0130-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.41078490899942766
+    },
+    {
+      "qid": "F0139-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999998
+    },
+    {
+      "qid": "F0140-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5408607181519213
+    },
+    {
+      "qid": "F0142-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5353803179630304
+    },
+    {
+      "qid": "F0143-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5800453565881971
+    },
+    {
+      "qid": "F0153-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6110757535929162
+    },
+    {
+      "qid": "F0160-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9833365023061323
+    },
+    {
+      "qid": "F0165-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.5152594376257016
+    },
+    {
+      "qid": "F0172-test",
+      "faithfulness": 0.3333333333333333,
+      "answer_relevancy": 0.8650559468366059
+    },
+    {
+      "qid": "F0175-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9999999999999999
+    },
+    {
+      "qid": "F0177-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.35810755311644016
+    },
+    {
+      "qid": "F0180-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6334231228993874
+    },
+    {
+      "qid": "F0183-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.5032091079928585
+    },
+    {
+      "qid": "F0185-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5086817051048234
+    },
+    {
+      "qid": "F0186-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3232498959907853
+    },
+    {
+      "qid": "F0191-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.3976140022050944
+    },
+    {
+      "qid": "F0194-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4786742626078106
+    },
+    {
+      "qid": "F0208-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6008055915384984
+    },
+    {
+      "qid": "F0209-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.935781799521101
+    },
+    {
+      "qid": "F0212-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000002
+    },
+    {
+      "qid": "F0214-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.49804667170478406
+    },
+    {
+      "qid": "F0217-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.36099448519872585
+    },
+    {
+      "qid": "F0220-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.3131342518597157
+    },
+    {
+      "qid": "F0223-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9866232969748497
+    },
+    {
+      "qid": "F0226-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 1.0000000000000002
+    },
+    {
+      "qid": "F0227-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3829172142178855
+    },
+    {
+      "qid": "F0228-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.960928445659889
+    },
+    {
+      "qid": "F0229-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8328935284532406
+    },
+    {
+      "qid": "F0243-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9606766325066021
+    },
+    {
+      "qid": "F0249-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.990658825980138
+    },
+    {
+      "qid": "F0250-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000002
+    },
+    {
+      "qid": "F0252-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0256-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8943701508117381
+    },
+    {
+      "qid": "F0257-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.572740059651601
+    },
+    {
+      "qid": "F0259-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8205794343051194
+    },
+    {
+      "qid": "F0268-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8471863740588754
+    },
+    {
+      "qid": "F0276-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9233104232850827
+    },
+    {
+      "qid": "F0279-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.35348689831538
+    },
+    {
+      "qid": "F0280-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9230725621239199
+    },
+    {
+      "qid": "F0283-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4434439893231694
+    },
+    {
+      "qid": "F0287-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.34978585162117737
+    },
+    {
+      "qid": "F0293-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.41773443412211103
+    },
+    {
+      "qid": "F0298-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9361184660437707
+    },
+    {
+      "qid": "F0311-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.43506514428041965
+    },
+    {
+      "qid": "F0324-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8030362968096526
+    },
+    {
+      "qid": "F0326-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.41131105749217084
+    },
+    {
+      "qid": "F0333-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9349273802530661
+    },
+    {
+      "qid": "F0334-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0343-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3880395968441072
+    },
+    {
+      "qid": "F0346-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.49976186772875003
+    },
+    {
+      "qid": "F0352-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9145180649976844
+    },
+    {
+      "qid": "F0363-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3400404056552269
+    },
+    {
+      "qid": "F0378-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9084977002792342
+    },
+    {
+      "qid": "F0382-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.37297403141913027
+    },
+    {
+      "qid": "F0386-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0389-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000002
+    },
+    {
+      "qid": "F0404-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9098088246570513
+    },
+    {
+      "qid": "F0437-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.974774648677427
+    },
+    {
+      "qid": "F0454-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0482-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9852226645158266
+    },
+    {
+      "qid": "F0491-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9783274599055094
+    },
+    {
+      "qid": "F0493-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0497-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9949515357454554
+    },
+    {
+      "qid": "F0508-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9999999999999998
+    },
+    {
+      "qid": "F0509-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.35292630911643197
+    },
+    {
+      "qid": "F0513-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9602621074019702
+    },
+    {
+      "qid": "F0514-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4370317191030659
+    },
+    {
+      "qid": "F0527-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9951648599602977
+    },
+    {
+      "qid": "F0544-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0
+    },
+    {
+      "qid": "F0545-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9756146919050712
+    },
+    {
+      "qid": "F0547-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9822666425233336
+    },
+    {
+      "qid": "F0557-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.4133180738323199
+    },
+    {
+      "qid": "F0559-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3912186402929302
+    },
+    {
+      "qid": "F0562-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.40604457253922854
+    },
+    {
+      "qid": "F0563-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9254082353543116
+    },
+    {
+      "qid": "F0567-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9825828409758273
+    },
+    {
+      "qid": "F0568-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.602647498577009
+    },
+    {
+      "qid": "F0571-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0585-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.44975549282300903
+    },
+    {
+      "qid": "F0592-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.49257734593975044
+    },
+    {
+      "qid": "F0593-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.532072753632254
+    },
+    {
+      "qid": "F0595-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6070866997610079
+    },
+    {
+      "qid": "F0597-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.2907537123917396
+    },
+    {
+      "qid": "F0603-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9974554204098508
+    },
+    {
+      "qid": "F0609-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5541233427848874
+    },
+    {
+      "qid": "F0612-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7101751873677167
+    },
+    {
+      "qid": "F0613-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0614-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3181554019917472
+    },
+    {
+      "qid": "F0616-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0617-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.2608299662196936
+    },
+    {
+      "qid": "F0618-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8838628804683427
+    },
+    {
+      "qid": "F0619-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0621-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9702194092382956
+    },
+    {
+      "qid": "F0623-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9920899215097502
+    },
+    {
+      "qid": "F0625-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000002
+    },
+    {
+      "qid": "F0630-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000004
+    },
+    {
+      "qid": "F0631-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.946201876828497
+    },
+    {
+      "qid": "F0634-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0635-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9898570271861057
+    },
+    {
+      "qid": "F0640-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0000000000000004
+    },
+    {
+      "qid": "F0646-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9667151198990065
+    },
+    {
+      "qid": "F0657-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.48159380560332954
+    },
+    {
+      "qid": "F0668-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0671-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.31470522484419117
+    },
+    {
+      "qid": "F0672-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0677-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0678-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9875779599099377
+    },
+    {
+      "qid": "F0688-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0689-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.42075450241075407
+    },
+    {
+      "qid": "F0696-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0697-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.4192776972142262
+    },
+    {
+      "qid": "F0702-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9931089436281432
+    },
+    {
+      "qid": "F0749-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.4006147988398421
+    },
+    {
+      "qid": "F0820-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0825-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9645996904665479
+    },
+    {
+      "qid": "F0827-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9912516026011324
+    },
+    {
+      "qid": "F0833-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.900727446288164
+    },
+    {
+      "qid": "F0834-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.977438724631434
+    },
+    {
+      "qid": "F0836-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9412961434482906
+    },
+    {
+      "qid": "F0844-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9361291816215518
+    },
+    {
+      "qid": "F0845-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9407070133029073
+    },
+    {
+      "qid": "F0855-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0858-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9518181869640244
+    },
+    {
+      "qid": "F0863-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5855286070684013
+    },
+    {
+      "qid": "F0877-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F0897-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.949266292543733
+    },
+    {
+      "qid": "F0921-test",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9694799089311817
+    },
+    {
+      "qid": "F0942-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.967601012409706
+    },
+    {
+      "qid": "F0991-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0
+    },
+    {
+      "qid": "F1031-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5617517293963653
+    },
+    {
+      "qid": "F1050-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.776658604674201
+    },
+    {
+      "qid": "F1051-test",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.8034952887980329
+    },
+    {
+      "qid": "F1052-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7544802547618711
+    },
+    {
+      "qid": "F1061-test",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9638032022463154
+    }
+  ]
+}

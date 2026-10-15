@@ -1,0 +1,41 @@
+asset_id,description,site,service_interval_days,last_service_date,assigned_technician
+AST-2526,Paint booth,Graz Electronics,45,2026-01-15,Mikael Etxeberria
+AST-2486,Coordinate measuring machine,Graz Electronics,365,2026-05-10,Clara Salo
+AST-2251,Paint booth,Brno Machining,180,2026-03-17,Tomasz Laine
+AST-2957,Pump test rig,Porto Foundry,45,2026-03-10,Freja Virtanen
+AST-2457,Hydraulic press 250t,Lyon Systems,60,2026-03-26,Claire Kowalski
+AST-2108,Air compressor,Brno Machining,30,2026-08-14,Kasper Huber
+AST-2674,Induction furnace,Bilbao Plant,45,2026-01-01,Marta Gruber
+AST-2838,Overhead crane 10t,Gdansk Assembly,90,2026-03-13,Claire Kowalski
+AST-2665,Coordinate measuring machine,Brno Machining,45,2026-05-10,Tomasz Laine
+AST-2442,CNC lathe,Lyon Systems,365,2026-01-23,Ines Wisniewski
+AST-2672,Overhead crane 10t,Tampere Works,90,2026-01-06,Kasper Huber
+AST-2506,Paint booth,Brno Machining,30,2026-05-30,Claire Kowalski
+AST-2559,Shot blasting cabinet,Porto Foundry,180,2026-08-17,Lea Huber
+AST-2854,Wave soldering machine,Graz Electronics,365,2026-03-25,Lea Huber
+AST-2910,Pump test rig,Porto Foundry,60,2026-07-05,Anna Virtanen
+AST-2402,Coordinate measuring machine,Porto Foundry,30,2026-07-31,Lea Huber
+AST-2993,Robotic welding cell,Graz Electronics,180,2026-06-29,Claire Kowalski
+AST-2518,5-axis machining centre,Tampere Works,365,2026-06-25,Anna Virtanen
+AST-2315,Wave soldering machine,Brno Machining,30,2026-01-08,Tomasz Laine
+AST-2704,5-axis machining centre,Bilbao Plant,30,2026-04-07,Freja Virtanen
+AST-2220,Robotic welding cell,Tampere Works,180,2026-01-05,Clara Salo
+AST-2235,Robotic welding cell,Brno Machining,90,2026-03-09,Tomasz Laine
+AST-2350,Pump test rig,Gdansk Assembly,180,2026-08-27,Claire Kowalski
+AST-2203,Robotic welding cell,Gdansk Assembly,180,2026-05-15,Mikael Etxeberria
+AST-2852,Forklift truck,Aarhus Service Centre,60,2026-07-27,Mikael Etxeberria
+AST-2903,Shot blasting cabinet,Lyon Systems,45,2026-07-06,Matteo Wisniewski
+AST-2723,Induction furnace,Aarhus Service Centre,90,2026-08-05,Kasper Larsen
+AST-2746,CNC lathe,Aarhus Service Centre,180,2026-03-15,Tomasz Laine
+AST-2651,Laser cutter,Brno Machining,30,2026-06-03,Ines Wisniewski
+AST-2143,Air compressor,Lyon Systems,180,2026-07-10,Lea Huber
+AST-2414,Paint booth,Porto Foundry,30,2026-05-04,Tomasz Laine
+AST-2355,Pump test rig,Lyon Systems,180,2026-01-26,Lea Huber
+AST-2055,Induction furnace,Aarhus Service Centre,60,2026-07-01,Claire Kowalski
+AST-2857,Paint booth,Aarhus Service Centre,90,2026-04-30,Mikael Etxeberria
+AST-2132,Robotic welding cell,Brno Machining,60,2026-01-22,Freja Virtanen
+AST-2014,Hydraulic press 250t,Lyon Systems,90,2026-01-20,Claire Kowalski
+AST-2072,Pump test rig,Lyon Systems,90,2026-02-23,Matteo Wisniewski
+AST-2640,CNC lathe,Gdansk Assembly,45,2026-07-11,Claire Kowalski
+AST-2758,Paint booth,Bilbao Plant,45,2026-06-04,Clara Salo
+AST-2900,Robotic welding cell,Lyon Systems,30,2026-06-30,Marta Gruber

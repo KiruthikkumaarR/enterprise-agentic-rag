@@ -1,0 +1,2780 @@
+{
+  "naive": {
+    "means": {
+      "faithfulness": 0.9708994708994709,
+      "nan_rate": {
+        "faithfulness": 0.0
+      },
+      "n_scored": 189
+    },
+    "rows": [
+      {
+        "qid": "F0001-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0002-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0003-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0005-test",
+        "faithfulness": 0.0
+      },
+      {
+        "qid": "F0008-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0010-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0012-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0014-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0017-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0019-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0020-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0021-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0026-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0030-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0034-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0035-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0036-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0037-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0039-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0040-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0041-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0042-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0043-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0045-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0048-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0052-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0053-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0057-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0058-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0061-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0068-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0070-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0072-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0074-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0075-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0078-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0080-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0082-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0084-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0085-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0087-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0088-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0089-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0091-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0094-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0095-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0098-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0099-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0103-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0104-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0109-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0110-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0112-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0114-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0116-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0127-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0130-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0132-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0139-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0140-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0142-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0143-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0153-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0160-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0165-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0172-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0175-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0177-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0180-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0183-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0185-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0186-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0191-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0194-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0208-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0209-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0212-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0214-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0217-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0220-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0223-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0226-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0227-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0228-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0229-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0243-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0249-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0250-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0252-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0256-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0257-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0259-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0268-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0276-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0279-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0280-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0283-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0287-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0293-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0298-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0311-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0324-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0326-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0333-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0334-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0343-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0346-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0352-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0363-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0378-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0382-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0386-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0389-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0404-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0437-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0454-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0482-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0491-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0493-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0497-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0508-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0509-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0513-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0514-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0527-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0544-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0545-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0547-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0557-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0559-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0562-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0563-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0567-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0568-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0571-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0585-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0592-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0593-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0595-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0597-test",
+        "faithfulness": 0.0
+      },
+      {
+        "qid": "F0603-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0609-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0612-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0613-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0614-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0616-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0617-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0618-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0619-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0621-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0623-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0625-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0630-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0631-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0634-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0635-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0640-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0646-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0657-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0668-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0671-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0672-test",
+        "faithfulness": 0.0
+      },
+      {
+        "qid": "F0678-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0688-test",
+        "faithfulness": 0.0
+      },
+      {
+        "qid": "F0696-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0697-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0702-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0749-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0820-test",
+        "faithfulness": 0.0
+      },
+      {
+        "qid": "F0825-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0827-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0833-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0834-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0836-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0844-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0845-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0855-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0858-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0863-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0877-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0897-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0921-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0942-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F0991-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F1031-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F1050-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F1051-test",
+        "faithfulness": 0.5
+      },
+      {
+        "qid": "F1052-test",
+        "faithfulness": 1.0
+      },
+      {
+        "qid": "F1061-test",
+        "faithfulness": 1.0
+      }
+    ]
+  },
+  "full": {
+    "means": {
+      "faithfulness": 0.9974747474747475,
+      "answer_relevancy": 0.9496699084843038,
+      "nan_rate": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0
+      },
+      "n_scored": 198
+    },
+    "rows": [
+      {
+        "qid": "F0001-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0002-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5948624972824351
+      },
+      {
+        "qid": "F0003-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9536185596770976
+      },
+      {
+        "qid": "F0005-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7237787545510365
+      },
+      {
+        "qid": "F0008-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9516330808374541
+      },
+      {
+        "qid": "F0010-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7216747415405427
+      },
+      {
+        "qid": "F0012-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8617269077942503
+      },
+      {
+        "qid": "F0014-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8766654044159327
+      },
+      {
+        "qid": "F0017-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.734306458637181
+      },
+      {
+        "qid": "F0019-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8942122713859089
+      },
+      {
+        "qid": "F0020-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9260692260430363
+      },
+      {
+        "qid": "F0021-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.947417949704121
+      },
+      {
+        "qid": "F0026-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0030-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9698926534457044
+      },
+      {
+        "qid": "F0034-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.971465084743729
+      },
+      {
+        "qid": "F0035-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7779001329521185
+      },
+      {
+        "qid": "F0036-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8916268296084678
+      },
+      {
+        "qid": "F0037-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9933641419013126
+      },
+      {
+        "qid": "F0039-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9789855543758704
+      },
+      {
+        "qid": "F0040-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.975058099623014
+      },
+      {
+        "qid": "F0041-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.886410371122129
+      },
+      {
+        "qid": "F0042-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8624950568830209
+      },
+      {
+        "qid": "F0043-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9365072638319456
+      },
+      {
+        "qid": "F0045-test",
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.812676333473896
+      },
+      {
+        "qid": "F0048-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9982126442956005
+      },
+      {
+        "qid": "F0052-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0053-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9975522793766494
+      },
+      {
+        "qid": "F0057-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0058-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9979015557090208
+      },
+      {
+        "qid": "F0061-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9812889280121817
+      },
+      {
+        "qid": "F0068-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0070-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9463174885551352
+      },
+      {
+        "qid": "F0072-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9903552208141161
+      },
+      {
+        "qid": "F0074-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9209572288508789
+      },
+      {
+        "qid": "F0075-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0078-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0080-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0082-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0084-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7324894277757178
+      },
+      {
+        "qid": "F0087-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0088-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9633731239021213
+      },
+      {
+        "qid": "F0089-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0091-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5351678595053411
+      },
+      {
+        "qid": "F0094-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8308289445548488
+      },
+      {
+        "qid": "F0095-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999
+      },
+      {
+        "qid": "F0098-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0099-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6685528115190368
+      },
+      {
+        "qid": "F0103-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8613221279340479
+      },
+      {
+        "qid": "F0104-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8950366346807176
+      },
+      {
+        "qid": "F0109-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9934783452403395
+      },
+      {
+        "qid": "F0110-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0112-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999
+      },
+      {
+        "qid": "F0114-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9964643525574439
+      },
+      {
+        "qid": "F0116-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9797014636579631
+      },
+      {
+        "qid": "F0127-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9935046468121491
+      },
+      {
+        "qid": "F0130-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9679578380205879
+      },
+      {
+        "qid": "F0132-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9962638247899838
+      },
+      {
+        "qid": "F0139-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0140-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9560584391776293
+      },
+      {
+        "qid": "F0142-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9402361256954226
+      },
+      {
+        "qid": "F0143-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9711694377933401
+      },
+      {
+        "qid": "F0153-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6362994722631116
+      },
+      {
+        "qid": "F0160-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9937064397282337
+      },
+      {
+        "qid": "F0165-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9906204891030721
+      },
+      {
+        "qid": "F0172-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8935881491785461
+      },
+      {
+        "qid": "F0175-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999
+      },
+      {
+        "qid": "F0177-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.994152623900241
+      },
+      {
+        "qid": "F0180-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6610458809983295
+      },
+      {
+        "qid": "F0183-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9904907862032686
+      },
+      {
+        "qid": "F0185-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0186-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9938355052204497
+      },
+      {
+        "qid": "F0191-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9895402891941052
+      },
+      {
+        "qid": "F0194-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9737780623787183
+      },
+      {
+        "qid": "F0208-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8610769695930147
+      },
+      {
+        "qid": "F0209-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.935781799521101
+      },
+      {
+        "qid": "F0212-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0214-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9941850834645125
+      },
+      {
+        "qid": "F0217-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6009167284857444
+      },
+      {
+        "qid": "F0220-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.949012842633525
+      },
+      {
+        "qid": "F0223-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9866232969748497
+      },
+      {
+        "qid": "F0226-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0227-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9922938068698043
+      },
+      {
+        "qid": "F0228-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9629093838167797
+      },
+      {
+        "qid": "F0229-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9070766569145687
+      },
+      {
+        "qid": "F0243-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9606766325066021
+      },
+      {
+        "qid": "F0249-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.990658825980138
+      },
+      {
+        "qid": "F0250-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0252-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9923367433192344
+      },
+      {
+        "qid": "F0254-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9906287416043087
+      },
+      {
+        "qid": "F0256-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9780231333572718
+      },
+      {
+        "qid": "F0257-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9314807998648648
+      },
+      {
+        "qid": "F0259-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8801406509727911
+      },
+      {
+        "qid": "F0260-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9870204120267988
+      },
+      {
+        "qid": "F0268-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9842436457771107
+      },
+      {
+        "qid": "F0276-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9453937254041088
+      },
+      {
+        "qid": "F0279-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9818754925312929
+      },
+      {
+        "qid": "F0280-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0283-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9848179689578452
+      },
+      {
+        "qid": "F0287-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0293-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9846874292639789
+      },
+      {
+        "qid": "F0298-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9450855870022313
+      },
+      {
+        "qid": "F0311-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.983604047313715
+      },
+      {
+        "qid": "F0324-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9320214772941192
+      },
+      {
+        "qid": "F0326-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.943526537440964
+      },
+      {
+        "qid": "F0333-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9383212392625271
+      },
+      {
+        "qid": "F0334-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9568692770420504
+      },
+      {
+        "qid": "F0343-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0346-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9343231716023784
+      },
+      {
+        "qid": "F0352-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9588769026057329
+      },
+      {
+        "qid": "F0363-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9814240109189573
+      },
+      {
+        "qid": "F0378-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9252822453473529
+      },
+      {
+        "qid": "F0382-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9373621015833131
+      },
+      {
+        "qid": "F0386-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9433030009286734
+      },
+      {
+        "qid": "F0389-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0404-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.988090825412882
+      },
+      {
+        "qid": "F0437-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.974774648677427
+      },
+      {
+        "qid": "F0454-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0460-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8941852388756556
+      },
+      {
+        "qid": "F0461-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9788653757675108
+      },
+      {
+        "qid": "F0464-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.975513954507163
+      },
+      {
+        "qid": "F0482-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9946680474451205
+      },
+      {
+        "qid": "F0491-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9783274599055094
+      },
+      {
+        "qid": "F0493-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0497-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9949515357454554
+      },
+      {
+        "qid": "F0508-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0509-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9795867333119387
+      },
+      {
+        "qid": "F0513-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9979185924697493
+      },
+      {
+        "qid": "F0514-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8984497495167031
+      },
+      {
+        "qid": "F0527-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9951648599602977
+      },
+      {
+        "qid": "F0539-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9947593104367
+      },
+      {
+        "qid": "F0541-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999
+      },
+      {
+        "qid": "F0544-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0545-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9533091454590292
+      },
+      {
+        "qid": "F0547-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9864271062863817
+      },
+      {
+        "qid": "F0557-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9848360739960101
+      },
+      {
+        "qid": "F0559-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9963385247369368
+      },
+      {
+        "qid": "F0562-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8978602560513863
+      },
+      {
+        "qid": "F0563-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9740317764792221
+      },
+      {
+        "qid": "F0567-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9878500538713276
+      },
+      {
+        "qid": "F0568-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9868759053701389
+      },
+      {
+        "qid": "F0571-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0585-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0592-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9848864037374109
+      },
+      {
+        "qid": "F0593-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9724934031496794
+      },
+      {
+        "qid": "F0595-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0597-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.993148622875946
+      },
+      {
+        "qid": "F0603-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9974554204098508
+      },
+      {
+        "qid": "F0609-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5807079197511105
+      },
+      {
+        "qid": "F0612-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8839974961688578
+      },
+      {
+        "qid": "F0613-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0614-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999999
+      },
+      {
+        "qid": "F0616-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.939915387454216
+      },
+      {
+        "qid": "F0617-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9722365116594738
+      },
+      {
+        "qid": "F0618-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8838628804683427
+      },
+      {
+        "qid": "F0619-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0621-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9982274254617751
+      },
+      {
+        "qid": "F0623-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9920899215097502
+      },
+      {
+        "qid": "F0625-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0630-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000004
+      },
+      {
+        "qid": "F0631-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9696771833368003
+      },
+      {
+        "qid": "F0634-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9728217723160326
+      },
+      {
+        "qid": "F0635-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9898570271861057
+      },
+      {
+        "qid": "F0640-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000004
+      },
+      {
+        "qid": "F0646-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9883527367266013
+      },
+      {
+        "qid": "F0657-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9096070573396584
+      },
+      {
+        "qid": "F0668-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0671-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0672-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9591759009573458
+      },
+      {
+        "qid": "F0677-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9688236965168578
+      },
+      {
+        "qid": "F0678-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9870035599246878
+      },
+      {
+        "qid": "F0688-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0689-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9751345223885964
+      },
+      {
+        "qid": "F0696-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0697-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9763656493001494
+      },
+      {
+        "qid": "F0702-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.993026527125841
+      },
+      {
+        "qid": "F0749-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9744727764039023
+      },
+      {
+        "qid": "F0820-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9899605328197916
+      },
+      {
+        "qid": "F0825-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9779204249160223
+      },
+      {
+        "qid": "F0827-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9912516026011324
+      },
+      {
+        "qid": "F0833-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9371714093604926
+      },
+      {
+        "qid": "F0834-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0836-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9412961434482906
+      },
+      {
+        "qid": "F0844-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9417421073903538
+      },
+      {
+        "qid": "F0845-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9407070133029073
+      },
+      {
+        "qid": "F0855-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9906457935057676
+      },
+      {
+        "qid": "F0858-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9701271700244083
+      },
+      {
+        "qid": "F0863-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9910612494030123
+      },
+      {
+        "qid": "F0877-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8743909481731792
+      },
+      {
+        "qid": "F0891-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0897-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.949266292543733
+      },
+      {
+        "qid": "F0921-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.940619431260928
+      },
+      {
+        "qid": "F0942-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.967208619329878
+      },
+      {
+        "qid": "F0991-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F1030-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9229234402589674
+      },
+      {
+        "qid": "F1031-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F1050-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9068017675245427
+      },
+      {
+        "qid": "F1052-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9088040013078506
+      },
+      {
+        "qid": "F1061-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9811627668585315
+      }
+    ]
+  },
+  "lora": {
+    "means": {
+      "faithfulness": 0.9974874371859297,
+      "answer_relevancy": 0.8708262121310367,
+      "nan_rate": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.0
+      },
+      "n_scored": 199
+    },
+    "rows": [
+      {
+        "qid": "F0001-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8350454684632289
+      },
+      {
+        "qid": "F0002-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7519006566133032
+      },
+      {
+        "qid": "F0003-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8540582799490944
+      },
+      {
+        "qid": "F0005-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6529022125015426
+      },
+      {
+        "qid": "F0008-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8397930719203663
+      },
+      {
+        "qid": "F0010-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7090927290135892
+      },
+      {
+        "qid": "F0012-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8617269077942503
+      },
+      {
+        "qid": "F0014-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8766654044159327
+      },
+      {
+        "qid": "F0017-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6447277927845068
+      },
+      {
+        "qid": "F0019-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8555698469536154
+      },
+      {
+        "qid": "F0020-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9260692260430363
+      },
+      {
+        "qid": "F0021-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9415996871834436
+      },
+      {
+        "qid": "F0026-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8533894118154789
+      },
+      {
+        "qid": "F0030-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8389010370901936
+      },
+      {
+        "qid": "F0034-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9240214513920931
+      },
+      {
+        "qid": "F0035-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7779001329521185
+      },
+      {
+        "qid": "F0036-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9446143971462876
+      },
+      {
+        "qid": "F0037-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9529450714850021
+      },
+      {
+        "qid": "F0039-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8168007797811343
+      },
+      {
+        "qid": "F0040-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9978631847935343
+      },
+      {
+        "qid": "F0041-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6864951359014381
+      },
+      {
+        "qid": "F0042-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9033741910932779
+      },
+      {
+        "qid": "F0043-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7584915723231196
+      },
+      {
+        "qid": "F0045-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8061924505304044
+      },
+      {
+        "qid": "F0048-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8119108785233141
+      },
+      {
+        "qid": "F0052-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0053-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8193546597417546
+      },
+      {
+        "qid": "F0057-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0058-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8245751374586635
+      },
+      {
+        "qid": "F0061-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8675120139644336
+      },
+      {
+        "qid": "F0068-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0070-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9533810842746602
+      },
+      {
+        "qid": "F0072-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9903552208141161
+      },
+      {
+        "qid": "F0074-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9267942915530726
+      },
+      {
+        "qid": "F0075-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9949603461405135
+      },
+      {
+        "qid": "F0078-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9453968139126337
+      },
+      {
+        "qid": "F0080-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8810059859348989
+      },
+      {
+        "qid": "F0082-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0084-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8202678334331376
+      },
+      {
+        "qid": "F0087-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9876422560195615
+      },
+      {
+        "qid": "F0088-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7932593262552591
+      },
+      {
+        "qid": "F0089-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8811266141441982
+      },
+      {
+        "qid": "F0091-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5351678595053411
+      },
+      {
+        "qid": "F0094-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7426083272227222
+      },
+      {
+        "qid": "F0095-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5585477741513617
+      },
+      {
+        "qid": "F0098-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0099-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6685528115190368
+      },
+      {
+        "qid": "F0103-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8630152050900997
+      },
+      {
+        "qid": "F0104-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.639640609175666
+      },
+      {
+        "qid": "F0109-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9879745839718408
+      },
+      {
+        "qid": "F0110-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9303664125355754
+      },
+      {
+        "qid": "F0112-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9620289204142627
+      },
+      {
+        "qid": "F0114-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8410509399505152
+      },
+      {
+        "qid": "F0116-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9227364938756863
+      },
+      {
+        "qid": "F0127-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9879778852897367
+      },
+      {
+        "qid": "F0130-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9679578380205879
+      },
+      {
+        "qid": "F0132-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8330969860245995
+      },
+      {
+        "qid": "F0139-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9539215556112904
+      },
+      {
+        "qid": "F0140-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9148611802608754
+      },
+      {
+        "qid": "F0142-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9926963949908383
+      },
+      {
+        "qid": "F0143-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9650745384205066
+      },
+      {
+        "qid": "F0153-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8608222777014599
+      },
+      {
+        "qid": "F0160-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9912387193652097
+      },
+      {
+        "qid": "F0165-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9834329794291234
+      },
+      {
+        "qid": "F0172-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8650559468366059
+      },
+      {
+        "qid": "F0175-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9541394491777506
+      },
+      {
+        "qid": "F0177-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9908449041241778
+      },
+      {
+        "qid": "F0180-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8759653144437395
+      },
+      {
+        "qid": "F0183-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9837759431639438
+      },
+      {
+        "qid": "F0185-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9263300684813986
+      },
+      {
+        "qid": "F0186-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.990747712356571
+      },
+      {
+        "qid": "F0191-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9818904754497336
+      },
+      {
+        "qid": "F0194-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9737780623787183
+      },
+      {
+        "qid": "F0208-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8610769695930147
+      },
+      {
+        "qid": "F0209-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7912522090222657
+      },
+      {
+        "qid": "F0212-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9378504779048352
+      },
+      {
+        "qid": "F0214-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9916989667336967
+      },
+      {
+        "qid": "F0217-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6883431035053827
+      },
+      {
+        "qid": "F0220-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8397162167386184
+      },
+      {
+        "qid": "F0223-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8596145827349021
+      },
+      {
+        "qid": "F0226-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7124353014845368
+      },
+      {
+        "qid": "F0227-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8793627621471225
+      },
+      {
+        "qid": "F0228-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9629093838167797
+      },
+      {
+        "qid": "F0229-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9070766569145687
+      },
+      {
+        "qid": "F0243-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9606766325066021
+      },
+      {
+        "qid": "F0249-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7914630826740764
+      },
+      {
+        "qid": "F0250-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0252-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.84418590521931
+      },
+      {
+        "qid": "F0254-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7980129529909284
+      },
+      {
+        "qid": "F0256-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8162421249186077
+      },
+      {
+        "qid": "F0257-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6787329767608815
+      },
+      {
+        "qid": "F0259-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8801406509727911
+      },
+      {
+        "qid": "F0260-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.830394663315766
+      },
+      {
+        "qid": "F0268-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9550342465606504
+      },
+      {
+        "qid": "F0276-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8368391365542004
+      },
+      {
+        "qid": "F0279-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8344478018525805
+      },
+      {
+        "qid": "F0280-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      },
+      {
+        "qid": "F0283-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.853211389564942
+      },
+      {
+        "qid": "F0287-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0293-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9763823235328892
+      },
+      {
+        "qid": "F0298-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9329474856736605
+      },
+      {
+        "qid": "F0311-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8460292437849755
+      },
+      {
+        "qid": "F0324-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8382347080207556
+      },
+      {
+        "qid": "F0326-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.943526537440964
+      },
+      {
+        "qid": "F0333-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8972573777070579
+      },
+      {
+        "qid": "F0334-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9568692770420504
+      },
+      {
+        "qid": "F0343-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999998
+      },
+      {
+        "qid": "F0346-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9174781260747613
+      },
+      {
+        "qid": "F0352-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9588769026057329
+      },
+      {
+        "qid": "F0363-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8061487813216105
+      },
+      {
+        "qid": "F0378-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8917148950954398
+      },
+      {
+        "qid": "F0382-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9184506736107739
+      },
+      {
+        "qid": "F0386-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9433030009286734
+      },
+      {
+        "qid": "F0389-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0000000000000002
+      },
+      {
+        "qid": "F0404-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9579434691248446
+      },
+      {
+        "qid": "F0437-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.974774648677427
+      },
+      {
+        "qid": "F0454-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8572595362251646
+      },
+      {
+        "qid": "F0460-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6834826765423686
+      },
+      {
+        "qid": "F0461-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9788653757675108
+      },
+      {
+        "qid": "F0464-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.975513954507163
+      },
+      {
+        "qid": "F0482-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8867506368750021
+      },
+      {
+        "qid": "F0491-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9772450378081406
+      },
+      {
+        "qid": "F0493-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8417178392268206
+      },
+      {
+        "qid": "F0497-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9342980010982153
+      },
+      {
+        "qid": "F0508-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8135628110801175
+      },
+      {
+        "qid": "F0509-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9795867333119387
+      },
+      {
+        "qid": "F0513-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8375661542121517
+      },
+      {
+        "qid": "F0514-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7917705566125252
+      },
+      {
+        "qid": "F0527-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9287391670568144
+      },
+      {
+        "qid": "F0539-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9289077450908413
+      },
+      {
+        "qid": "F0541-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7936772427135126
+      },
+      {
+        "qid": "F0544-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8287869032467714
+      },
+      {
+        "qid": "F0545-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9533091454590292
+      },
+      {
+        "qid": "F0547-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9864271062863817
+      },
+      {
+        "qid": "F0557-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6889306977757303
+      },
+      {
+        "qid": "F0559-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9963385247369368
+      },
+      {
+        "qid": "F0562-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.725234910771322
+      },
+      {
+        "qid": "F0563-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.40239015674966166
+      },
+      {
+        "qid": "F0567-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9878500538713276
+      },
+      {
+        "qid": "F0568-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.885668848904719
+      },
+      {
+        "qid": "F0571-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.48084581438067237
+      },
+      {
+        "qid": "F0585-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.4675737006254572
+      },
+      {
+        "qid": "F0592-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9848864037374109
+      },
+      {
+        "qid": "F0593-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.43644232912956893
+      },
+      {
+        "qid": "F0595-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.48855472253363474
+      },
+      {
+        "qid": "F0597-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.993148622875946
+      },
+      {
+        "qid": "F0603-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9920819985640246
+      },
+      {
+        "qid": "F0609-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5541233427848874
+      },
+      {
+        "qid": "F0612-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7101751873677167
+      },
+      {
+        "qid": "F0613-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9716774705361796
+      },
+      {
+        "qid": "F0614-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7250558772455882
+      },
+      {
+        "qid": "F0616-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8670671522376383
+      },
+      {
+        "qid": "F0617-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6323109666205208
+      },
+      {
+        "qid": "F0618-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9593732827480592
+      },
+      {
+        "qid": "F0619-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9569688603987738
+      },
+      {
+        "qid": "F0621-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9982274254617751
+      },
+      {
+        "qid": "F0623-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9183691545249277
+      },
+      {
+        "qid": "F0625-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8803110285427441
+      },
+      {
+        "qid": "F0630-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8699334134537364
+      },
+      {
+        "qid": "F0631-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9591182368304864
+      },
+      {
+        "qid": "F0634-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9544739387869858
+      },
+      {
+        "qid": "F0635-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8066621623503939
+      },
+      {
+        "qid": "F0640-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8290966651343294
+      },
+      {
+        "qid": "F0646-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9883527367266013
+      },
+      {
+        "qid": "F0657-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9259158652120913
+      },
+      {
+        "qid": "F0668-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8559132530392085
+      },
+      {
+        "qid": "F0671-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8839566180642886
+      },
+      {
+        "qid": "F0672-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9591759009573458
+      },
+      {
+        "qid": "F0677-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9608144680670425
+      },
+      {
+        "qid": "F0678-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.898589160751387
+      },
+      {
+        "qid": "F0688-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8890927875926847
+      },
+      {
+        "qid": "F0689-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.961836433348703
+      },
+      {
+        "qid": "F0696-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8662610201402414
+      },
+      {
+        "qid": "F0697-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9679699609522447
+      },
+      {
+        "qid": "F0702-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8913448825613327
+      },
+      {
+        "qid": "F0749-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.96155498639645
+      },
+      {
+        "qid": "F0820-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9899605328197916
+      },
+      {
+        "qid": "F0825-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9262546553540392
+      },
+      {
+        "qid": "F0827-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9912516026011324
+      },
+      {
+        "qid": "F0833-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7907032317243633
+      },
+      {
+        "qid": "F0834-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9443808519524661
+      },
+      {
+        "qid": "F0836-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9412961434482906
+      },
+      {
+        "qid": "F0844-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9417421073903538
+      },
+      {
+        "qid": "F0845-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8084061011683752
+      },
+      {
+        "qid": "F0855-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9906457935057676
+      },
+      {
+        "qid": "F0858-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9023360957464853
+      },
+      {
+        "qid": "F0863-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9910612494030123
+      },
+      {
+        "qid": "F0877-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8249093238635478
+      },
+      {
+        "qid": "F0891-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9371235815621163
+      },
+      {
+        "qid": "F0897-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.872219857207321
+      },
+      {
+        "qid": "F0921-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8722841316283058
+      },
+      {
+        "qid": "F0942-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8662871646577753
+      },
+      {
+        "qid": "F0991-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8010863766847708
+      },
+      {
+        "qid": "F1030-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9237776450983934
+      },
+      {
+        "qid": "F1031-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9947119610605158
+      },
+      {
+        "qid": "F1050-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5433625607780298
+      },
+      {
+        "qid": "F1051-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7862298573955099
+      },
+      {
+        "qid": "F1052-test",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5162905578745404
+      },
+      {
+        "qid": "F1061-test",
+        "faithfulness": 0.5,
+        "answer_relevancy": 0.6033228083623045
+      }
+    ]
+  }
+}

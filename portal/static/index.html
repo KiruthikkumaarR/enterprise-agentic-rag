@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Enterprise Agentic RAG Engine - a secure, on-premise company knowledge portal: verified, cited answers, role-based access, dashboards and one-click reports.">
+<title>Halvorsen Intelligence Portal</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 3l25 14.5v29L32 61 7 46.5v-29z' fill='%233fd6c4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/css/portal.css">
+</head>
+<body>
+<div class="aurora"></div>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div id="boot"><div class="spinner"></div></div>
+
+<!-- ======================= LOGIN ======================= -->
+<section id="login" class="hidden">
+  <div class="login-brand">
+    <div class="brand-row">
+      <svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fd6c4"/><stop offset="1" stop-color="#5b8cff"/></linearGradient></defs><path d="M32 3l25 14.5v29L32 61 7 46.5v-29z" fill="none" stroke="url(#lg1)" stroke-width="3"/><path d="M22 20v24M42 20v24M22 32h20" stroke="url(#lg1)" stroke-width="4" stroke-linecap="round"/></svg>
+      <div><div class="brand-name">Halvorsen Industrial Systems</div><div class="brand-sub">Intelligence Portal</div></div>
+    </div>
+    <div class="login-hero">
+      <h1>Every answer,<br><span>grounded in your documents.</span></h1>
+      <p>Ask questions across board papers, finance, HR, engineering and operations. Every answer is verified against the source and cited to the exact page, and you only ever see what your role permits.</p>
+    </div>
+    <div class="login-stats">
+      <div><b id="ls-docs">67</b><span>Documents</span></div>
+      <div><b>8</b><span>Sites in Europe</span></div>
+      <div><b>11</b><span>Departments</span></div>
+      <div><b>100%</b><span>On-premise</span></div>
+    </div>
+  </div>
+  <div class="login-panel">
+    <form class="card-login" id="login-form" autocomplete="on">
+      <h2>Sign in</h2>
+      <p class="muted">Use your corporate account.</p>
+      <label class="field"><span>Username</span><input class="input" id="u" name="username" autocomplete="username" required></label>
+      <label class="field"><span>Password</span><input class="input" id="p" name="password" type="password" autocomplete="current-password" required></label>
+      <div class="error" id="login-error" role="alert"></div>
+      <button class="btn primary block" id="login-btn" type="submit">Sign in securely</button>
+      <details class="demo hidden" id="demo">
+        <summary>Demo accounts</summary>
+        <div class="demo-list" id="demo-list"></div>
+        <div class="demo-note">Demo mode: synthetic company and test credentials only. Disable with PORTAL_DEMO=0.</div>
+      </details>
+      <div class="secure-note"><i></i>Runs locally. No data leaves this computer.</div>
+    </form>
+  </div>
+</section>
+
+<!-- ======================= APP ======================= -->
+<section id="app" class="hidden">
+  <aside class="sidebar">
+    <div class="brand-row">
+      <svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fd6c4"/><stop offset="1" stop-color="#5b8cff"/></linearGradient></defs><path d="M32 3l25 14.5v29L32 61 7 46.5v-29z" fill="none" stroke="url(#lg2)" stroke-width="3"/><path d="M22 20v24M42 20v24M22 32h20" stroke="url(#lg2)" stroke-width="4" stroke-linecap="round"/></svg>
+      <div><div class="brand-name">Halvorsen</div><div class="brand-sub">Intelligence</div></div>
+    </div>
+    <nav class="nav" id="nav"></nav>
+    <div class="me">
+      <div class="me-row"><div class="avatar" id="me-avatar"></div><div><b id="me-name"></b><small id="me-title"></small></div></div>
+      <div style="margin-top:10px" id="me-badges"></div>
+      <button class="btn sm block ghost" id="logout">Sign out</button>
+    </div>
+  </aside>
+  <main>
+    <header class="topbar"><div><h1 id="view-title"></h1><p id="view-sub"></p></div><div class="spacer"></div><div id="view-actions"></div></header>
+    <div class="view" id="view"></div>
+  </main>
+</section>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Source"></aside>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Details"></div>
+<div class="toasts" id="toasts"></div>
+
+<script src="/static/vendor/chart.umd.min.js" defer></script>
+<script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

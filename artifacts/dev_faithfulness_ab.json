@@ -1,0 +1,16 @@
+{
+  "A_original": {
+    "correct": 0.9666666666666667,
+    "answered": 0.9666666666666667,
+    "ragas_faithfulness": 0.9568965517241379,
+    "terse_answers": 15,
+    "n": 60
+  },
+  "B_new": {
+    "correct": 0.9666666666666667,
+    "answered": 0.9666666666666667,
+    "ragas_faithfulness": 0.9655172413793104,
+    "terse_answers": 0,
+    "n": 60
+  }
+}

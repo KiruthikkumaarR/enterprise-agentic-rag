@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enterprise Agentic RAG</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #ffffff; --ink: #1b1f24; --muted: #5f6b7a; --line: #e2e6eb;
+    --accent: #2457d6; --accent-soft: #e8eefc; --ok: #1f7a4d; --ok-soft: #e3f4ea;
+    --warn: #9a6200; --warn-soft: #fbf0d9; --bad: #b42318; --bad-soft: #fde8e6; --mark: #fff3b0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111418; --panel: #1a1e24; --ink: #e8ebef; --muted: #9aa5b3; --line: #2b313a;
+      --accent: #7aa2ff; --accent-soft: #1f2a44; --ok: #5cc98f; --ok-soft: #173326;
+      --warn: #e6b450; --warn-soft: #3a2e12; --bad: #ff8a80; --bad-soft: #3d1a17; --mark: #5a4b00;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 -apple-system, "Segoe UI", Inter, sans-serif; }
+  header { padding: 18px 24px; border-bottom: 1px solid var(--line); background: var(--panel); display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  header h1 { font-size: 18px; margin: 0; }
+  header .sub { color: var(--muted); font-size: 13px; }
+  #health { margin-left: auto; font-size: 12px; color: var(--muted); }
+  main { max-width: 980px; margin: 0 auto; padding: 24px 16px 80px; }
+  form { display: flex; gap: 8px; flex-wrap: wrap; }
+  input[type=text] { flex: 1 1 420px; padding: 12px 14px; font-size: 15px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); color: var(--ink); }
+  button { padding: 11px 18px; border-radius: 10px; border: 0; background: var(--accent); color: #fff; font-weight: 600; cursor: pointer; }
+  button:disabled { opacity: .6; cursor: wait; }
+  select { padding: 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); }
+  .samples { margin: 10px 0 22px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .samples button { background: var(--accent-soft); color: var(--accent); font-weight: 500; padding: 5px 10px; font-size: 13px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin-bottom: 16px; }
+  .badge { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 99px; text-transform: uppercase; letter-spacing: .03em; }
+  .b-verified { background: var(--ok-soft); color: var(--ok); }
+  .b-partially_verified, .b-unverified_baseline { background: var(--warn-soft); color: var(--warn); }
+  .b-abstained, .b-unverified_fallback, .b-no_evidence { background: var(--bad-soft); color: var(--bad); }
+  .answer { font-size: 17px; margin: 12px 0 4px; }
+  .cite { display: inline-block; font-size: 12px; background: var(--accent-soft); color: var(--accent); border-radius: 6px; padding: 0 6px; margin: 0 2px; cursor: pointer; border: 0; font-weight: 600; }
+  .meta { color: var(--muted); font-size: 13px; display: flex; gap: 14px; flex-wrap: wrap; margin-top: 10px; }
+  h2 { font-size: 14px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 0 0 10px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  td.num { font-variant-numeric: tabular-nums; text-align: right; }
+  .ok { color: var(--ok); font-weight: 600; } .bad { color: var(--bad); font-weight: 600; }
+  .bar { height: 8px; border-radius: 4px; background: var(--accent); }
+  .timing { display: flex; height: 12px; border-radius: 6px; overflow: hidden; margin: 6px 0; }
+  .legend span { margin-right: 12px; font-size: 12px; color: var(--muted); }
+  .legend i { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 4px; }
+  #drawer { position: fixed; top: 0; right: 0; height: 100vh; width: min(560px, 100vw); background: var(--panel); border-left: 1px solid var(--line);
+            transform: translateX(100%); transition: transform .2s ease; overflow-y: auto; padding: 20px; z-index: 10; box-shadow: -8px 0 24px rgba(0,0,0,.12); }
+  #drawer.open { transform: none; }
+  #drawer pre { white-space: pre-wrap; font: 13px/1.5 ui-monospace, Menlo, monospace; background: var(--bg); padding: 12px; border-radius: 8px; }
+  #drawer img { width: 100%; border: 1px solid var(--line); border-radius: 8px; margin-top: 10px; }
+  #drawer .close { float: right; background: transparent; color: var(--muted); font-size: 20px; padding: 0 6px; }
+  mark { background: var(--mark); color: inherit; padding: 0 1px; }
+  .muted { color: var(--muted); }
+  @media (max-width: 600px) { th:nth-child(n+5), td:nth-child(n+5) { display: none; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Enterprise Agentic RAG Engine</h1>
+  <span class="sub">Hybrid retrieval · cross-encoder reranking · Phi-4-mini (llama.cpp) · NLI faithfulness guardrail</span>
+  <span id="health">checking services…</span>
+</header>
+<main>
+  <form id="f">
+    <input type="text" id="q" placeholder="Ask a question about the company documents…" autocomplete="off" required>
+    <select id="mode" title="Pipeline">
+      <option value="full">Guardrailed pipeline</option>
+      <option value="naive">Naive RAG baseline</option>
+    </select>
+    <button id="go">Ask</button>
+  </form>
+  <div class="samples" id="samples"></div>
+  <div id="out"></div>
+</main>
+<aside id="drawer" aria-hidden="true"></aside>
+<script>
+const SAMPLES = [
+  "What is the maximum head of the HX-320 pump?",
+  "How long must CCTV footage be kept?",
+  "What was the on-time delivery rate at Porto Foundry?",
+  "Within how many days must an NCR be closed?",
+  "What caused the VPN gateway outage?",
+  "What is the CEO's annual salary?"
+];
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let last = null;
+
+$("#samples").innerHTML = SAMPLES.map(s => `<button type="button">${esc(s)}</button>`).join("");
+$("#samples").onclick = e => { if (e.target.tagName === "BUTTON") { $("#q").value = e.target.textContent; ask(); } };
+$("#f").onsubmit = e => { e.preventDefault(); ask(); };
+
+fetch("/api/health").then(r => r.json()).then(h => {
+  $("#health").textContent = `Qdrant ${h.qdrant ? "●" : "○"}  ·  LLM ${h.llm ? "●" : "○"} ${h.llm_model}  ·  reranker: ${String(h.reranker).split("/").pop()}`;
+}).catch(() => $("#health").textContent = "API unreachable");
+
+async function ask() {
+  const q = $("#q").value.trim(); if (!q) return;
+  $("#go").disabled = true; $("#out").innerHTML = `<div class="card muted">Retrieving, reranking, generating and verifying…</div>`;
+  try {
+    const r = await fetch("/api/query", {method: "POST", headers: {"Content-Type": "application/json"},
+                                         body: JSON.stringify({question: q, mode: $("#mode").value})});
+    if (!r.ok) throw new Error(await r.text());
+    last = await r.json(); render(last);
+  } catch (err) { $("#out").innerHTML = `<div class="card bad">Error: ${esc(err.message)}</div>`; }
+  $("#go").disabled = false;
+}
+
+function answerHTML(r) {
+  return esc(r.answer_raw).replace(/\[S(\d+)\]/g, (m, n) => {
+    const s = r.sources[n - 1]; if (!s) return m;
+    const loc = s.doc_type === "csv" ? `row ${s.page}` : s.doc_type === "md" ? `§${s.page}` : `p. ${s.page}`;
+    return `<button class="cite" data-s="${n}" title="${esc(s.doc)}">${esc(s.doc.replace(/\.[a-z]+$/, ""))} · ${loc}</button>`;
+  });
+}
+
+function render(r) {
+  const t = r.timings_s, total = t.total;
+  const segs = [["retrieval", "#7aa2ff"], ["rerank", "#b48cff"], ["generation", "#f0a35e"], ["verification", "#5cc98f"]];
+  const lastV = [...r.attempts].reverse().find(a => a.verdict)?.verdict;
+  let html = `<div class="card">
+    <span class="badge b-${r.status}">${r.status.replace(/_/g, " ")}</span>
+    <div class="answer">${answerHTML(r)}</div>
+    <div class="meta"><span>${total.toFixed(2)} s total</span><span>${r.regenerations} regeneration(s)</span><span>${r.mode === "full" ? "guardrailed" : "naive baseline"}</span></div>
+    <div class="timing">${segs.map(([k, c]) => `<div style="width:${100 * t[k] / total}%;background:${c}" title="${k} ${t[k].toFixed(2)}s"></div>`).join("")}</div>
+    <div class="legend">${segs.map(([k, c]) => `<span><i style="background:${c}"></i>${k} ${t[k].toFixed(2)}s</span>`).join("")}</div>
+  </div>`;
+  if (lastV && lastV.claims.length) {
+    html += `<div class="card"><h2>Faithfulness verifier</h2><table><tr><th>Claim</th><th>Cites</th><th>Entailment</th><th>Verdict</th></tr>
+      ${r.attempts.filter(a => a.verdict).map(a => a.verdict.claims.map(c => `<tr><td>${a.attempt ? "<span class=muted>(retry)</span> " : ""}${esc(c.claim)}</td>
+        <td>${c.citations.map(n => "S" + n).join(", ")}</td><td class="num">${c.entailment.toFixed(2)}</td>
+        <td class="${c.supported ? "ok" : "bad"}">${c.supported ? "supported" : esc(c.reason)}</td></tr>`).join("")).join("")}</table></div>`;
+  }
+  html += `<div class="card"><h2>Evidence passed to the model</h2><table><tr><th>#</th><th>Document</th><th>Location</th><th>Score</th></tr>
+    ${r.sources.map((s, i) => `<tr><td><button class="cite" data-s="${i + 1}">S${i + 1}</button></td><td>${esc(s.doc)}</td>
+      <td>${s.doc_type === "csv" ? "row" : s.doc_type === "md" ? "section" : "page"} ${s.page}</td><td class="num">${s.score?.toFixed(3) ?? ""}</td></tr>`).join("")}</table></div>`;
+  html += `<div class="card"><h2>Retrieval audit (top ${r.retrieved.length} chunks)</h2><table><tr><th>Chunk</th><th>Dense rank</th><th>Sparse rank</th><th>RRF</th><th>Rerank</th></tr>
+    ${r.retrieved.map(c => `<tr><td>${esc(c.chunk_id)}</td><td class="num">${c.dense_rank ?? "–"}</td><td class="num">${c.sparse_rank ?? "–"}</td>
+      <td class="num">${c.rrf_score?.toFixed(4) ?? "–"}</td><td class="num">${c.rerank_score?.toFixed(2) ?? "–"}</td></tr>`).join("")}</table></div>`;
+  $("#out").innerHTML = html;
+}
+
+document.addEventListener("click", e => {
+  const b = e.target.closest(".cite"); if (b && last) openSource(+b.dataset.s);
+  if (e.target.closest(".close")) $("#drawer").classList.remove("open");
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape") $("#drawer").classList.remove("open"); });
+
+function openSource(n) {
+  const s = last.sources[n - 1]; if (!s) return;
+  const claims = ([...last.attempts].reverse().find(a => a.verdict)?.verdict.claims || []).filter(c => c.citations.includes(n));
+  let text = esc(s.text);
+  const nums = new Set(claims.flatMap(c => c.claim.match(/\d[\d,.]*\d|\d/g) || []));
+  nums.forEach(v => { text = text.split(esc(v)).join(`<mark>${esc(v)}</mark>`); });
+  const loc = s.doc_type === "csv" ? `row ${s.page}` : s.doc_type === "md" ? `section ${s.page}` : `page ${s.page}`;
+  $("#drawer").innerHTML = `<button class="close" aria-label="Close">×</button>
+    <h2>Source S${n}</h2><div><strong>${esc(s.doc)}</strong> — ${loc}</div><div class="muted">${esc(s.section)}</div>
+    ${claims.length ? `<p class="muted">Supports: ${claims.map(c => "“" + esc(c.claim) + "”").join("; ")}</p>` : ""}
+    <pre>${text}</pre>
+    ${s.doc_type === "pdf" ? `<img alt="Rendered page ${s.page} of ${esc(s.doc)}" src="/api/documents/${encodeURIComponent(s.doc)}/page/${s.page}.png">` : ""}
+    <p><a href="/api/documents/${encodeURIComponent(s.doc)}/raw">Download original document</a></p>`;
+  $("#drawer").classList.add("open");
+}
+</script>
+</body>
+</html>

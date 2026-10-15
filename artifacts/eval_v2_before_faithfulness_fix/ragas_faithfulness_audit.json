@@ -1,0 +1,18 @@
+{
+  "full": {
+    "flagged": 29,
+    "flagged_but_correct_and_in_context": 27,
+    "from_table_contexts": 10,
+    "terse": 6,
+    "raw": 0.901,
+    "adjudicated": 0.99
+  },
+  "naive": {
+    "flagged": 34,
+    "flagged_but_correct_and_in_context": 33,
+    "from_table_contexts": 16,
+    "terse": 16,
+    "raw": 0.886,
+    "adjudicated": 0.995
+  }
+}

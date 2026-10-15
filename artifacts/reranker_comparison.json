@@ -1,0 +1,31 @@
+{
+  "hybrid_rrf_no_rerank": {
+    "context_precision": 0.8584166666666667,
+    "context_recall": 0.995,
+    "mrr": 0.8658333333333332,
+    "hit@1": 0.76,
+    "answer_chunk@1": 0.765
+  },
+  "pretrained_reranker": {
+    "context_precision": 0.9744166666666666,
+    "context_recall": 1.0,
+    "mrr": 0.98625,
+    "hit@1": 0.975,
+    "answer_chunk@1": 0.975
+  },
+  "finetuned_reranker": {
+    "context_precision": 0.97225,
+    "context_recall": 0.995,
+    "mrr": 0.995,
+    "hit@1": 0.995,
+    "answer_chunk@1": 0.995
+  },
+  "training": {
+    "epochs": 1,
+    "lr": 1e-05,
+    "n_train": 1852,
+    "n_val": 211,
+    "n_neg": 7,
+    "seconds": 1863.0781240463257
+  }
+}

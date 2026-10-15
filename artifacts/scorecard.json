@@ -1,0 +1,98 @@
+[
+  {
+    "metric":"Context precision (RAGAS def., gold-page labels)",
+    "target":">= 0.90",
+    "naive":0.793,
+    "pipeline (base)":0.991,
+    "final system (LoRA)":0.991,
+    "target met (final)":true
+  },
+  {
+    "metric":"Context precision (RAGAS, LLM judge)",
+    "target":">= 0.90",
+    "naive":0.832,
+    "pipeline (base)":0.99,
+    "final system (LoRA)":0.99,
+    "target met (final)":true
+  },
+  {
+    "metric":"Context recall (RAGAS, LLM judge)",
+    "target":"-",
+    "naive":0.995,
+    "pipeline (base)":1.0,
+    "final system (LoRA)":1.0,
+    "target met (final)":null
+  },
+  {
+    "metric":"Faithfulness (RAGAS, judge sees generator input)",
+    "target":">= 0.95",
+    "naive":0.971,
+    "pipeline (base)":0.997,
+    "final system (LoRA)":0.997,
+    "target met (final)":true
+  },
+  {
+    "metric":"Faithfulness (RAGAS, page-text-only judge view)",
+    "target":"(info)",
+    "naive":0.854,
+    "pipeline (base)":0.891,
+    "final system (LoRA)":null,
+    "target met (final)":null
+  },
+  {
+    "metric":"Answer relevancy (RAGAS)",
+    "target":"-",
+    "naive":0.933,
+    "pipeline (base)":0.95,
+    "final system (LoRA)":0.871,
+    "target met (final)":null
+  },
+  {
+    "metric":"Citation accuracy (gold page cited)",
+    "target":">= 0.95",
+    "naive":0.968,
+    "pipeline (base)":0.995,
+    "final system (LoRA)":1.0,
+    "target met (final)":true
+  },
+  {
+    "metric":"End-to-end latency p95 (s)",
+    "target":"< 3.5",
+    "naive":1.16,
+    "pipeline (base)":2.32,
+    "final system (LoRA)":1.979,
+    "target met (final)":true
+  },
+  {
+    "metric":"Answer correctness (semantic match)",
+    "target":"-",
+    "naive":0.92,
+    "pipeline (base)":0.98,
+    "final system (LoRA)":0.995,
+    "target met (final)":null
+  },
+  {
+    "metric":"Answer correctness (strict exact match)",
+    "target":"-",
+    "naive":0.905,
+    "pipeline (base)":0.955,
+    "final system (LoRA)":0.98,
+    "target met (final)":null
+  },
+  {
+    "metric":"Wrong answers delivered",
+    "target":"-",
+    "naive":0.025,
+    "pipeline (base)":0.01,
+    "final system (LoRA)":0.0,
+    "target met (final)":null
+  },
+  {
+    "metric":"Refusal on unanswerable questions",
+    "target":"-",
+    "naive":1.0,
+    "pipeline (base)":1.0,
+    "final system (LoRA)":1.0,
+    "target met (final)":null
+  }
+]
